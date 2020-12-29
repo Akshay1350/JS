@@ -1,0 +1,15 @@
+<script>
+    function f1()
+    {
+        var products=[];
+        products["0"]="Mobile";
+        products["1"]="SamsungTV";
+        products["2"]="Shoe";
+        for(var property in products ){
+            document.write(`[${property}]-[${typeof property}]:${products[property]}<br>`)
+        }
+
+    }
+
+    f1()
+</script>

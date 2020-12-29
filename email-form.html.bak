@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+  <form>
+  		Email id:
+  <input type="text" name="email" placeholder="Type valid email id" pattern="^[a-Z0-9._%+-]+@[a-Z0-9.-]+\.[a-Z]{2,}$">
+  <button>Submit</button>
+  </form>
+ </body>
+</html>

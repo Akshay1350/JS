@@ -1,0 +1,15 @@
+<script>
+    function f1(){
+        var callbacks=[];
+        callbacks[0]=function(){
+            return "Welcome to the world of Arrays!!";
+        };
+
+        callbacks[1]=function(a,b){
+            return a*b;
+        }
+        document.write(callbacks[0]()+"<br>"+callbacks[1](10,30));
+    }
+
+    f1()
+</script>    
